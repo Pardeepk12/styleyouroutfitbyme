@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Curated Picks | Thoughtfully Reviewed Products</title>
+  <meta name="description" content="Discover hand-picked products carefully reviewed and curated for quality, value, and everyday usefulness. Honest recommendations you can trust." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Curated Picks | Thoughtfully Reviewed Products" />
+  <meta property="og:description" content="Hand-picked products carefully reviewed for quality and everyday value. Honest recommendations you can trust." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80" />
+  <meta property="og:url" content="https://curatedpicks.example.com" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Curated Picks | Thoughtfully Reviewed Products" />
+  <meta name="twitter:description" content="Hand-picked products carefully reviewed for quality and everyday value." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80" />
+
+  <!-- Bootstrap 5 CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- =============================================
+       PAGE HEADER
+       ============================================= -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner text-center">
+        <p class="header-eyebrow">Hand-Picked &amp; Honestly Reviewed</p>
+        <h1 class="header-title">Curated Picks</h1>
+        <p class="header-subtitle">
+          Products we genuinely love — tested, reviewed, and worth your time.
+        </p>
+        <div class="header-divider" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- =============================================
+       MAIN CONTENT
+       ============================================= -->
+  <main id="main-content" role="main">
+    <div class="container">
+
+      <!-- ==========================================
+           PRODUCT 1
+           To duplicate: copy this entire <article> block,
+           paste below, and update image/title/description/href.
+           ========================================== -->
+      <article class="product-card" aria-label="Product: Minimalist Leather Watch">
+        <div class="row g-0 align-items-center">
+
+          <!-- Image (left desktop / top mobile) -->
+          <div class="col-12 col-md-5">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700&q=80"
+                alt="Minimalist leather watch with clean white dial on a wooden surface"
+                class="product-image"
+                loading="lazy"
+                width="700"
+                height="467"
+              />
+              <span class="product-badge" aria-label="Category">Accessories</span>
+            </div>
+          </div>
+
+          <!-- Content (right desktop / bottom mobile) -->
+          <div class="col-12 col-md-7">
+            <div class="product-content">
+              <p class="product-category">Staff Favourite</p>
+              <h2 class="product-title">Minimalist Leather Watch</h2>
+
+              <!--
+                DESC WRAPPER: wraps the description paragraph.
+                JS measures height here and animates max-height.
+              -->
+              <div class="desc-wrapper">
+                <p class="product-description">
+                  A beautifully crafted timepiece that proves less is more. Featuring a clean white dial, genuine leather strap, and Swiss quartz movement — this watch pairs effortlessly with both casual weekends and polished workwear. The slim 38mm case sits flush against the wrist, and the domed sapphire crystal glass catches light in a way that never gets old. It is the kind of watch that earns compliments without trying, from people who notice the details.
+                </p>
+              </div>
+              <!--
+                READ MORE BUTTON: must immediately follow .desc-wrapper.
+                JS detects it via wrapper.nextElementSibling.
+              -->
+              <button
+                class="btn-read-more"
+                type="button"
+                aria-expanded="false"
+                aria-label="Read more about this product"
+              >Read more <i class="btn-read-more__icon" aria-hidden="true">&#8964;</i></button>
+
+              <ul class="product-highlights" aria-label="Key features">
+                <li>Swiss quartz movement</li>
+                <li>Genuine full-grain leather strap</li>
+                <li>30m water resistance</li>
+              </ul>
+              <a
+                href="https://www.example.com/affiliate/watch"
+                class="btn-view-product"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Minimalist Leather Watch — opens in new tab"
+              >
+                Visit Site
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+              <p class="product-note">
+                <span aria-hidden="true">✦</span> We may earn a small commission at no extra cost to you.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </article>
+      <!-- END PRODUCT 1 -->
+
+
+      <!-- ==========================================
+           PRODUCT 2
+           ========================================== -->
+      <article class="product-card" aria-label="Product: Ceramic Pour-Over Coffee Set">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-12 col-md-5">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700&q=80"
+                alt="White ceramic pour-over coffee dripper set on a light marble countertop"
+                class="product-image"
+                loading="lazy"
+                width="700"
+                height="467"
+              />
+              <span class="product-badge" aria-label="Category">Kitchen</span>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7">
+            <div class="product-content">
+              <p class="product-category">Top Rated</p>
+              <h2 class="product-title">Ceramic Pour-Over Coffee Set</h2>
+
+              <div class="desc-wrapper">
+                <p class="product-description">
+                  Elevate your morning ritual with this handcrafted ceramic dripper and carafe set. Designed for the discerning home barista who appreciates both form and function — it brews a remarkably clean, flavourful cup every time. The matte glaze retains heat beautifully while the precision-ridged interior guides water flow evenly through the grounds. Paired with the matching carafe, this set looks as good sitting on a shelf as it tastes in a mug. A genuinely thoughtful gift for coffee lovers.
+                </p>
+              </div>
+              <button
+                class="btn-read-more"
+                type="button"
+                aria-expanded="false"
+                aria-label="Read more about this product"
+              >Read more <i class="btn-read-more__icon" aria-hidden="true">&#8964;</i></button>
+
+              <ul class="product-highlights" aria-label="Key features">
+                <li>Food-safe matte ceramic glaze</li>
+                <li>Includes reusable stainless steel filter</li>
+                <li>Brews 1–4 cups per pour</li>
+              </ul>
+              <a
+                href="https://www.example.com/affiliate/coffee-set"
+                class="btn-view-product"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Ceramic Pour-Over Coffee Set — opens in new tab"
+              >
+                Visit Site
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+              <p class="product-note">
+                <span aria-hidden="true">✦</span> We may earn a small commission at no extra cost to you.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </article>
+      <!-- END PRODUCT 2 -->
+
+
+      <!-- ==========================================
+           PRODUCT 3
+           ========================================== -->
+      <article class="product-card" aria-label="Product: Merino Wool Throw Blanket">
+        <div class="row g-0 align-items-center">
+
+          <div class="col-12 col-md-5">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1586105251261-72a756497a11?w=700&q=80"
+                alt="Soft natural merino wool throw blanket draped over a light grey sofa"
+                class="product-image"
+                loading="lazy"
+                width="700"
+                height="467"
+              />
+              <span class="product-badge" aria-label="Category">Home</span>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7">
+            <div class="product-content">
+              <p class="product-category">Editor's Choice</p>
+              <h2 class="product-title">Merino Wool Throw Blanket</h2>
+
+              <div class="desc-wrapper">
+                <p class="product-description">
+                  Spun from 100% fine merino wool, this throw strikes the perfect balance between warmth and breathability. Drape it over your sofa or layer it on your bed — it is the kind of purchase that makes every room feel more intentional. Merino wool naturally regulates temperature, keeping you comfortable whether it is cool autumn evenings or mild spring mornings. The oversized dimensions mean it actually covers you properly, and the tightly woven edges resist pilling season after season.
+                </p>
+              </div>
+              <button
+                class="btn-read-more"
+                type="button"
+                aria-expanded="false"
+                aria-label="Read more about this product"
+              >Read more <i class="btn-read-more__icon" aria-hidden="true">&#8964;</i></button>
+
+              <ul class="product-highlights" aria-label="Key features">
+                <li>100% ethically sourced merino wool</li>
+                <li>Temperature-regulating natural fibre</li>
+                <li>Available in 6 muted earth tones</li>
+              </ul>
+              <a
+                href="https://www.example.com/affiliate/blanket"
+                class="btn-view-product"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Merino Wool Throw Blanket — opens in new tab"
+              >
+                Visit Site
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+              <p class="product-note">
+                <span aria-hidden="true">✦</span> We may earn a small commission at no extra cost to you.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </article>
+      <!-- END PRODUCT 3 -->
+
+      <!-- product 4 -->
+
+      <article class="product-card" aria-label="Product: Minimalist Leather Watchessssssss">
+        <div class="row g-0 align-items-center">
+
+          <!-- Image (left desktop / top mobile) -->
+          <div class="col-12 col-md-5">
+            <div class="product-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=700&q=80"
+                alt="Minimalist leather watch with clean white dial on a wooden surface"
+                class="product-image"
+                loading="lazy"
+                width="700"
+                height="467"
+              />
+              <span class="product-badge" aria-label="Category">Accessories</span>
+            </div>
+          </div>
+
+          <!-- Content (right desktop / bottom mobile) -->
+          <div class="col-12 col-md-7">
+            <div class="product-content">
+              <p class="product-category">Staff Favourite</p>
+              <h2 class="product-title">Minimalist Leather Watchesssssssss</h2>
+
+              <!--
+                DESC WRAPPER: wraps the description paragraph.
+                JS measures height here and animates max-height.
+              -->
+              <div class="desc-wrapper">
+                <p class="product-description">
+                  A beautifully crafted timepiece that proves less is more. Featuring a clean white dial, genuine leather strap, and Swiss quartz movement — this watch pairs effortlessly with both casual weekends and polished workwear. The slim 38mm case sits flush against the wrist, and the domed sapphire crystal glass catches light in a way that never gets old. It is the kind of watch that earns compliments without trying, from people who notice the details.
+                </p>
+              </div>
+              <!--
+                READ MORE BUTTON: must immediately follow .desc-wrapper.
+                JS detects it via wrapper.nextElementSibling.
+              -->
+              <button
+                class="btn-read-more"
+                type="button"
+                aria-expanded="false"
+                aria-label="Read more about this product"
+              >Read more <i class="btn-read-more__icon" aria-hidden="true">&#8964;</i></button>
+
+              <ul class="product-highlights" aria-label="Key features">
+                <li>Swiss quartz movement</li>
+                <li>Genuine full-grain leather strap</li>
+                <li>30m water resistance</li>
+              </ul>
+              <a
+                href="https://www.example.com/affiliate/watch"
+                class="btn-view-product"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Minimalist Leather Watch — opens in new tab"
+              >
+                Visit Site
+                <span class="btn-arrow" aria-hidden="true">→</span>
+              </a>
+              <p class="product-note">
+                <span aria-hidden="true">✦</span> We may earn a small commission at no extra cost to you.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner text-center">
+        <p class="footer-disclosure">
+          This page contains affiliate links. We may earn a commission when you purchase through our links — at no additional cost to you. We only recommend products we genuinely believe in.
+        </p>
+        <p class="footer-copy">
+          &copy; <span id="footer-year"></span> Curated Picks. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmCRXNWZGMi9rMH9hI5yDiRtVi9G"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
